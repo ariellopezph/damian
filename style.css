@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    /* position: fixed; */
+    overflow: hidden;
+}
+
+
+/*///////////////////// HOME /////////////////////*/
+
+#home {
+    background-image: url(img/header-background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#home > .container > h1 {
+    letter-spacing: 8px;
+    font-size: 8vh;
+
+}
+
+#home > .container > p {
+    font-size: 3vh;
+}
+
+
+/*///////////////////// NOSOTROS /////////////////////*/
+
+#nosotros {
+    /* background: linear-gradient( 
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6) ), 
+        url(img/nosotros-background.png); */
+    background-color: rgb(42, 72, 109);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+@media (max-width: 600) {
+    #nosotros{
+        height: 50vh;
+    }   
+
+}
+
+
+#nosotros-row {
+    height: 100vh;
+    
+}
+
+.col-lg-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (max-width: 1024px) {
+    #col-lg-6 {
+        height: 50vh;
+    }   
+
+}
+@media (max-width: 800px) {
+    #col-lg-6 {
+        height: 5vh;
+    }   
+
+}
+
+.nosotros-img > img {
+    border-radius: 25% 10%;
+    width: 100%;
+    
+}
+
+
+
+.title {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    
+}
+@media (max-width: 1024px) {
+    .title {
+        padding: 70px;
+    }   
+
+}
+
+@media (max-width: 600px) {
+    .title {
+        padding: 30px;
+    }   
+
+}
+
+.title > h3 {
+    font-size: 10vw;
+}
+@media (min-width: 900px) {
+    .title > h3 {
+        font-size: 5vw;
+    }
+}
+
+/*///////////////////// SERVICIO /////////////////////*/
+
+
+#servicio {
+    /* background-image: url(img/servicio-background.png); */
+    background-color: rgb(39, 90, 166);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/*///////////////////// CLIENTES /////////////////////*/
+
+.clientes {
+    /* background-image: url(img/clientes-background.png); */
+    background-color: rgb(144, 204, 221);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    
+}
+
+#clientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.empresas {
+    display: flex;
+    align-items: center;
+    height: 75vh;
+
+}
+
+.empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 25%; */
+}
+
+
+.empresa > img {
+    width: 200px;
+}
+
+
+/*///////////////////// CONTACTO /////////////////////*/
+
+#contacto {
+    background-image: url(img/contacto-background.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
